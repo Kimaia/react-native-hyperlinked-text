@@ -36,8 +36,8 @@ Pass in `linkDefs` array to configure custom regex and behavior:
 ```
 ## Props
 
-| Prop | Description | Example | Default Value |
-| --- | --- | --- |
+| Prop | Description | Example | Default |
+| --- | --- | --- | --- |
 | `style` | The style of the entire component | `style={{backgroundColor:'blue'}}` | None |
 | `linkStyle` | Default style for links. Can be overriden in `linkDef.style` | `linkStyle={{color: 'purple'}}` | `{{color:'#0000EE'}}` |
 | `onLinkPress` | Default handler for link presses | `onLinkPress={text=>window.alert(text)}` | Open browser |
@@ -48,10 +48,10 @@ Each link definition is an object with the following properties:
 
 ```JS
 {
-  regex: <regex>,/* The regex to match. You can capturing groups and you probably want to add the 'm' and 'g' flags to search in entire text. If you use capturing groups they will be passed to your handlers*/
+  regex: /regex/mgi, /* The regex to match. You can capturing groups and you probably want to add the 'm' and 'g' flags to search in entire text. If you use capturing groups they will be passed to your handlers*/
   onPress: (wholeMatch, ...capturingGroups) => {}, /* optional - handler for presses. Receives the whole match and the capturing groups. If you don't specify a handler, the default handler will be used */
-  noPress: <boolean>, /* optional - set to false to disable presses. Default is true */
-  style: <style object>, /* optional - style for link. If undefined then default link style will be used */
+  noPress: false, /* optional - set to false to disable presses. Default is false */
+  style: {}, /* optional - style for link. If undefined then default link style will be used */
   replaceText: (wholeMatch, ...capturingGroups) => newText /* optional - the match will be replaced with whatever you return here */  
 }
 ```
