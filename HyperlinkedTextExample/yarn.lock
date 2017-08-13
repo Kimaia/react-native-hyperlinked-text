@@ -3200,9 +3200,9 @@ react-devtools-core@2.3.1:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-native-hyperlinked-text@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/react-native-hyperlinked-text/-/react-native-hyperlinked-text-0.0.3.tgz#8e7d8b7a041dc5c99adc8b5835b28a7f9ad3f4a9"
+react-native-hyperlinked-text@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/react-native-hyperlinked-text/-/react-native-hyperlinked-text-0.0.4.tgz#1f9138bcdec97c073b2e76372d4ae5e20ecc5f66"
   dependencies:
     ramda "^0.24.1"
 
