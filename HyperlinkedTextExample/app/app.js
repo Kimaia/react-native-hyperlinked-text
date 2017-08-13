@@ -30,7 +30,7 @@ export default class HyperlinkedTextExample extends Component {
               onPress: (orig, text, url) => HyperlinkedText._openWebUrl(url)
             }
           ]}
-        >Use markdown style links [Kimaia](https://www.kimaia.com)</HyperlinkedText>
+        >Use markdown style links - [Kimaia](https://www.kimaia.com)</HyperlinkedText>
         <HyperlinkedText
           style={styles.entry}
                     linkDefs={[
@@ -65,9 +65,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
   entry: {
-    textAlign: 'center',
+    textAlign: 'left',
     color: '#333333',
-    marginBottom: 15,
+    margin: 15,
   },
 });
 
