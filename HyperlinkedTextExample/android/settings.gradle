@@ -1,0 +1,3 @@
+rootProject.name = 'HyperlinkedTextExample'
+
+include ':app'
