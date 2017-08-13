@@ -58,3 +58,5 @@ Each link definition is an object with the following properties:
   replaceText: (wholeMatch, ...capturingGroups) => newText /* optional - the match will be replaced with whatever you return here */  
 }
 ```
+
+<sup>&copy; 2017 [Kimaia LTD](https://www.kimaia.com)</sup>
