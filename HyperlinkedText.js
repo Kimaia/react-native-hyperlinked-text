@@ -18,7 +18,7 @@ const textPropTypes = Text.propTypes || {}
 /**
  * Replaces the string child with a hyperlinked version according to configuration
  */
-module.exports = class HyperlinkedText extends Component {
+export default class HyperlinkedText extends Component {
 	constructor(props){
 		super(props)
     this._getMatches = this._getMatches.bind(this);
