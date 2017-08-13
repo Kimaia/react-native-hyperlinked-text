@@ -1,0 +1,26 @@
+{
+  "name": "react-native-hyperlinked-text",
+  "version": "0.0.1",
+  "keywords": [
+    "react-native"
+  ],
+  "dependencies": {
+    "ramda": "^0.24.1"
+  },
+  "description": "Text component for React Native with regex defined hyperlinks",
+  "main": "HyperlinkedText.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kimaia/react-native-hyperlinked-text.git"
+  },
+  "author": "Doron Tohar <doron.tohar@gmail.com> (https://www.kimaia.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kimaia/react-native-hyperlinked-text/issues"
+  },
+  "homepage": "https://github.com/Kimaia/react-native-hyperlinked-text#readme"
+}
