@@ -6,9 +6,11 @@ Text component for React Native with regex defined hyperlinks.
 Heavily inspired from [react-native-hyperlink](https://github.com/obipawan/react-native-hyperlink/blob/master/README.md).
 
 The difference is that with react-native-hyperlink you use linkify which I couldn't configure to detect arbitrary regex without prefix (e.g. '1:00'). If you only need to detect regexs with prefixes (e.g. mentions with '@' or links with 'schema://') then use hyperlink. react-native-hyperlink also supports nesting `<Text>` components.
-## Usage Examples
 **Important** - put only strings inside a `<HyperlinkedText>` component. There is no way to nest components right now.
-
+# Installation
+`npm install --save react-native-hyperlinked-text` or
+`yarn add react-native-hyperlinked-text`
+# Usage Examples
 The default behavior is to identify URLs and open web browser when they are clicked:
 ```JSX
 <HyperlinkedText>You get regular URLs handling by default - https://www.kimaia.com</HyperlinkedText>
