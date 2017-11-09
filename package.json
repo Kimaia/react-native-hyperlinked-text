@@ -5,6 +5,7 @@
     "react-native", "hyperlink", "hyperlinks", "regex", "links"
   ],
   "dependencies": {
+    "prop-types": "^15.6.0",
     "ramda": "^0.24.1"
   },
   "description": "Text component for React Native with regex defined hyperlinks",
