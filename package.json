@@ -12,7 +12,7 @@
   "main": "HyperlinkedText.js",
   "devDependencies": {},
   "peerDependencies": {
-    "react-native": "^0.46.1"
+    "react-native": ">=0.46.1"
   },
   "scripts": {
     "test": "mocha --reporter spec"
