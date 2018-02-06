@@ -5,13 +5,14 @@
     "react-native", "hyperlink", "hyperlinks", "regex", "links"
   ],
   "dependencies": {
+    "prop-types": "^15.6.0",
     "ramda": "^0.24.1"
   },
   "description": "Text component for React Native with regex defined hyperlinks",
   "main": "HyperlinkedText.js",
   "devDependencies": {},
   "peerDependencies": {
-    "react-native": "^0.46.1"
+    "react-native": ">=0.46.1"
   },
   "scripts": {
     "test": "mocha --reporter spec"
