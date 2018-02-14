@@ -67,7 +67,7 @@ export default class HyperlinkedText extends Component {
     for (let match of matches) {      
       const linkDef = match.linkDef;
       const style = linkDef.style || this.props.linkStyle;
-      const onPress = linkDef.noPress? ()=>{} : (linkDef.onPress || this.props.onLinkPress);
+      const onPress = linkDef.noPress? undefined : (linkDef.onPress || this.props.onLinkPress);
       const replaceText = linkDef.replaceText || R.identity;
 
       let nonLinkedText = component.props.children.substring(_lastIndex, match.index);
