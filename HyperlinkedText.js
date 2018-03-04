@@ -89,7 +89,8 @@ export default class HyperlinkedText extends Component {
   }
 
   static _openWebUrl(url) {
-    Linking.canOpenURL(url).then(supported => supported && Linking.openURL(url)).catch(console.log('Failed to open url ' + url));
+    const decapitalizedUrl = url.toLowerCase();
+    Linking.canOpenURL(decapitalizedUrl).then(supported => supported && Linking.openURL(decapitalizedUrl)).catch(console.log('Failed to open url ' + decapitalizedUrl));
   }
 
   static get webUrlLinkDef() {
