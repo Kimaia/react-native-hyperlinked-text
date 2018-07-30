@@ -5,9 +5,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import {
-	View,
-	Text,
-	Linking,
+  View,
+  Text,
+  Linking,
 } from 'react-native'
 import styles from './Styles/HyperlinkedTextStyle';
 import R from 'ramda';
@@ -20,12 +20,12 @@ const textPropTypes = Text.propTypes || {}
  * Replaces the string child with a hyperlinked version according to configuration
  */
 export default class HyperlinkedText extends Component {
-	constructor(props){
-		super(props)
+  constructor(props){
+    super(props)
     this._getMatches = this._getMatches.bind(this);
-	}
+  }
 
-	render(){
+  render(){
     return this._linkify(this);
   }
 
@@ -58,10 +58,10 @@ export default class HyperlinkedText extends Component {
 
   _replaceMatches(component, matches) {  
     const componentProps = {
-			...component.props,
-			ref: undefined,
-			key: undefined,
-		};
+      ...component.props,
+      ref: undefined,
+      key: undefined,
+    };
     let _lastIndex = 0;
     const elements = [];
     for (let match of matches) {      
@@ -103,7 +103,7 @@ export default class HyperlinkedText extends Component {
 
 HyperlinkedText.propTypes = {
   onLinkPress: PropTypes.func,
-	linkDefs: PropTypes.array,
+  linkDefs: PropTypes.array,
   linkStyle: textPropTypes.style
 }
 
