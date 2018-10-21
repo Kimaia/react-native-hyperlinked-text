@@ -1,13 +1,18 @@
 {
   "name": "react-native-hyperlinked-text",
-  "version": "1.0.0",
-  "keywords": ["react-native", "hyperlink", "hyperlinks", "regex", "links"],
+  "version": "1.0.1",
+  "keywords": [
+    "react-native",
+    "hyperlink",
+    "hyperlinks",
+    "regex",
+    "links"
+  ],
   "dependencies": {
     "prop-types": "^15.6.0",
     "ramda": "^0.24.1"
   },
-  "description":
-    "Text component for React Native with regex defined hyperlinks",
+  "description": "Text component for React Native with regex defined hyperlinks",
   "main": "HyperlinkedText.js",
   "devDependencies": {},
   "peerDependencies": {
