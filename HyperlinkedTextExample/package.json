@@ -7,9 +7,9 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"react": "16.0.0-alpha.12",
-		"react-native": "0.47.1",
-		"react-native-hyperlinked-text": "^0.0.4"
+		"react": "16.6.0-alpha.8af6728",
+		"react-native": "0.57.3",
+		"react-native-hyperlinked-text": "../"
 	},
 	"devDependencies": {
 		"babel-jest": "20.0.3",

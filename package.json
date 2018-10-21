@@ -1,6 +1,6 @@
 {
   "name": "react-native-hyperlinked-text",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "keywords": ["react-native", "hyperlink", "hyperlinks", "regex", "links"],
   "dependencies": {
     "prop-types": "^15.6.0",
