@@ -44,6 +44,7 @@ export default class HyperlinkedText extends Component {
     const regex = linkDef.regex;
     regex.lastIndex = 0; // reset the regex in case it was used before
     let matches = [];
+    let regexResult;
     while ((regexResult = regex.exec(text)) !== null) {
       matches.push({
        text: regexResult[0],
